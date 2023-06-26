@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+}
+.auth-board{
+	margin: 5%;
+}
+.ff-sans-serif{
+	font-family: sans-serif;
+}
+.auth-board .auth {
+	margin: 19% 10%;
+}
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #000000;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(147 147 147 / 25%);
+}
+.today-dt{
+font-size: 13px;
+color: #505050;
+}
+.w-80-p{
+    
+    width: 80%;
+}
+.d-border{
+        border: 1px solid #d1cfcf;
+}
