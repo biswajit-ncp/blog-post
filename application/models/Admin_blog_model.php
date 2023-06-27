@@ -9,6 +9,7 @@ class Admin_blog_model extends CI_Model
 		$this->db->select('*');
 		$this->db->from('blogs');
 		$this->db->where('is_deleted','0');
+		$this->db->order_by('id','DESC');
 		$re = $this->db->get();
 		if( $re->num_rows() > 0 ){
 			foreach ( $re->result() as $row ) {
@@ -62,6 +63,7 @@ class Admin_blog_model extends CI_Model
 			$this->db->from('blogs');
 			$this->db->where('created_by',$created_by);
 			$this->db->where('is_deleted','0');
+			$this->db->order_by('id','DESC');
 			$re = $this->db->get();
 			if( $re->num_rows() > 0 ){
 				foreach ( $re->result() as $row ) {

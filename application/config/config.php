@@ -25,7 +25,7 @@ define('FILE_UPLOAD_BASE_PATH', '/opt/lampp/htdocs/codeigniter/blog-post/');
 |
 */
 
-$config['base_url'] = 'http://localhost/codeigniter/blog-post/';
+$config['base_url'] = 'http://localhost/codeigniter/blog/';
 
 /*
 |--------------------------------------------------------------------------
